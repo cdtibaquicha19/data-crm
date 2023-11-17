@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,10 +28,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 
 <body>
-
     @yield('contenido')
-
-
     <div class="modal fade" id="modalemail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -51,7 +47,6 @@
                         class="boton_personalizado" id="access_crm" target="_blank" href="https://www.datacrm.com/">
                         INICIAR SESIÓN
                     </a>
-
                     <br>
                     <a href="https://www.datacrm.com/" id="recover_password"
                         style="color:#41c3ac; text-decoration: underline;font-size: 1.2em;" target="_blank"
@@ -70,7 +65,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     </div>
@@ -83,17 +77,9 @@
         gtag('js', new Date());
         gtag('config', 'G-PVJNVD8TVN');
     </script>
-
-
-    <script src="./CRM Móvil para la administración de ventas_files/popper.min.1.11.0.js.descarga" defer=""></script>
-    <script src="./CRM Móvil para la administración de ventas_files/all-functions.js.descarga" defer=""></script>
-    <script src="./CRM Móvil para la administración de ventas_files/cookies.js.descarga" defer=""></script>
-    <script src="./CRM Móvil para la administración de ventas_files/lazyload.min.js.descarga" defer=""></script>
-    <script src="./CRM Móvil para la administración de ventas_files/modification.home.js.descarga" defer=""></script>
     <!-- prueba mapa de calor orange -->
     <script src="{{ asset('js/main.home.js') }}"></script>
     <script async="true" src="{{ asset('js/js.js') }}"></script>
     <script src="{{ asset('js/javascript.js') }}"></script>
 </body>
-
 </html>

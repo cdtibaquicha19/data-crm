@@ -208,12 +208,10 @@
                     </picture>
                 </div>
             </div>
-
         </div>
         <!-- negocios -->
         <section class="myDivBlue1 myDivDiagonalLeftA" id="negocios">
             <div class="container p-0   section-resize mt-5  myDivDiagonalLeftB">
-
                 <div class="row">
                     <article class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
                         <h2 class="mt-5 txt-white  ft-h2 br-wd typ-montserrat myTitleWhite">
@@ -245,11 +243,8 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
         <!-- actividades -->
-
         <section id="actividades " class="container p-0 pb-5 section-resize">
             <div class="row mb-4 mx-5">
                 <div class="col-lg-4 col-md-6 col-12 mt-5" style="align=center">
@@ -296,13 +291,10 @@
                             </picture>
                         </a>
                     </div>
-
                 </article>
             </div>
         </section>
-
         <!-- Vista global -->
-
         <section id="vistaGlobal" class="myDivGreen1 myDivDiagonalRightA">
             <div class="container  mt-5 MB-5 section-resize myDivDiagonalRightB" id="">
 
@@ -344,9 +336,7 @@
                 </div>
             </div>
         </section>
-
         <!-- Contacto -->
-
         <section id="contacto" class="container p-0 pb-5 section-resize">
             <div class="row mb-4 mx-5">
                 <div class="col-lg-4 col-md-6 col-12 mt-5 ">
