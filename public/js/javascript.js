@@ -1996,3 +1996,46 @@ function nombrePais(myCountryCode = "") {
     });
     return myNombre;
 }
+
+const load = () => {
+    const scripts = document.querySelectorAll('script[type="lazy"]');
+    scripts.forEach(function(script) {
+        let scriptEle = document.createElement('script');
+        scriptEle.setAttribute('type', 'text/javascript');
+        scriptEle.setAttribute('async', true);
+        if (!script.src.length) {
+            scriptEle.appendChild(document.createTextNode(script.textContent));
+        } else {
+            scriptEle.setAttribute('src', script.src);
+        }
+        document.body.appendChild(scriptEle);
+    });
+
+    const links = document.querySelectorAll('link[type="lazy"]');
+    links.forEach(function(link) {
+        let linkEle = document.createElement('link');
+        linkEle.setAttribute('type', 'text/css');
+        linkEle.setAttribute('media', 'all');
+        linkEle.setAttribute('href', link.href);
+        document.body.appendChild(linkEle);
+    });
+}
+
+const timer = setTimeout(load, 12000);
+
+const events = ["mouseover", "keydown", "touchmove", "touchstart"];
+
+const trigger = () => {
+    setTimeout(function() {
+
+    }, 2000);
+    load();
+    clearTimeout(timer);
+    events.forEach(e => window.removeEventListener(e, trigger, {
+        passive: true
+    }));
+}
+
+events.forEach(e => window.addEventListener(e, trigger, {
+    passive: true
+}));
