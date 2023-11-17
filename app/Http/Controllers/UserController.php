@@ -8,7 +8,7 @@ class UserController extends Controller
 {
 public function mostrarIndex()
     {
-        return view('layouts.index');
+        return view('contenido');
     }
 
 }
