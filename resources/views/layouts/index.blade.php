@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es-ES">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,6 +27,7 @@
         content="Accede desde tu móvil a toda la información de tus clientes y contáctalos rápidamente con nuestra App de CRM para Android y iOS ¡Descárgala!">
     <meta name="twitter:title" content="CRM Móvil para la administración de ventas">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
 <body>
     <div class="container-fluid" style="margin: 0px; padding: 0px;">
         <!-- mobile -->
@@ -170,7 +172,7 @@
 
         <div class="container p-0  pt-3">
             <div class="row mt-5 section-resize section-init-movil">
-                <div class="col-lg-8 col-md-8 col-12 pt-4 section-init-movil-child">
+                <article class="col-lg-8 col-md-8 col-12 pt-4 section-init-movil-child">
 
                     <h1 class="text-uppercase mt-5 pt-5 myTitleBlue typ-montserrat fs-h2">
                         Software CRM móvil
@@ -224,7 +226,7 @@
 
                         </div>
                     </div>
-                </div>
+                </article>
                 <div class="col-lg-4 col-md-4 col-12 mt-5 ">
                     <picture>
                         <source type="image/webp"
@@ -238,11 +240,11 @@
 
         </div>
         <!-- negocios -->
-        <div class="myDivBlue1 myDivDiagonalLeftA">
+        <section class="myDivBlue1 myDivDiagonalLeftA" id="negocios">
             <div class="container p-0   section-resize mt-5  myDivDiagonalLeftB">
 
                 <div class="row">
-                    <div class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
+                    <article class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
                         <h2 class="mt-5 txt-white  ft-h2 br-wd typ-montserrat myTitleWhite">
                             <span class="span-border-b-w">
                                 Negocios
@@ -258,7 +260,7 @@
                             <b>Prueba esta funcionalidad</b>
                         </button>
                         <div class="space"></div>
-                    </div>
+                    </article>
                     <div class="col-lg-4 col-md-6 col-12 order-1 order-lg-2" style="aling:center">
                         <picture>
                             <source type="image/webp"
@@ -274,11 +276,11 @@
                 </div>
             </div>
 
-        </div>
+        </section>
 
         <!-- actividades -->
 
-        <div class="container p-0 pb-5 section-resize">
+        <section id="actividades " class="container p-0 pb-5 section-resize">
             <div class="row mb-4 mx-5">
                 <div class="col-lg-4 col-md-6 col-12 mt-5" style="align=center">
                     <picture>
@@ -288,7 +290,7 @@
                             alt="Calendario_en_crm_movil" width="251" height="409" class="img-fluid">
                     </picture>
                 </div>
-                <div class="col-lg-8 col-md-6 col-12 px-5 text-right">
+                <article class="col-lg-8 col-md-6 col-12 px-5 text-right">
                     <h2 class=" mt-5 txt-orange  ft-h2 br-wd text-right font-weight-bold">
                         <span class="">Actividades</span>
                     </h2>
@@ -326,19 +328,19 @@
                         </a>
                     </div>
 
-                </div>
+                </article>
             </div>
-        </div>
+        </section>
 
         <!-- Vista global -->
 
-        <div class="myDivGreen1 myDivDiagonalRightA">
+        <section id="vistaGlobal" class="myDivGreen1 myDivDiagonalRightA">
             <div class="container  mt-5 MB-5 section-resize myDivDiagonalRightB" id="">
 
                 <div class="container section-resize p-0">
 
                     <div class="row mb-4 mx-4">
-                        <div class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
+                        <article class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
                             <h2 class="mt-5 txt-white typ-montserrat ft-h2 br-wd font-weight-bold">
                                 <span class="">
                                     Vista global
@@ -358,7 +360,7 @@
                             </button>
                             <div class="space"></div>
                             <div class="space"></div>
-                        </div>
+                        </article>
                         <div class="col-lg-4 col-md-6 col-12 order-1 order-lg-2 text-center">
 
                             <picture>
@@ -372,11 +374,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Contacto -->
 
-        <div class="container p-0 pb-5 section-resize">
+        <section id="contacto" class="container p-0 pb-5 section-resize">
             <div class="row mb-4 mx-5">
                 <div class="col-lg-4 col-md-6 col-12 mt-5 ">
                     <picture>
@@ -430,15 +432,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Cotizaciones -->
 
-        <div class="myDivBlue1 myDivDiagonalLeftA">
+        <section id="cotizaciones" class="myDivBlue1 myDivDiagonalLeftA">
             <div class="container p-0  mt-5  myDivDiagonalLeftB">
 
                 <div class="row mb-4 mx-4">
-                    <div class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
+                    <article class="col-lg-8 col-md-6 col-12 mt-5 px-max-5 order-2 order-lg-1">
                         <h2 class=" mt-5 txt-white ft-h2 br-wd font-weight-bold"><span class="">
                                 Cotizaciones
                             </span>
@@ -456,7 +458,7 @@
                             data-toggle="modal" data-target="#modalPruebaGratis3">
                             <b>¡Lo necesito!</b>
                         </button>
-                    </div>
+                    </article>
                     <div class="col-lg-4 col-md-6 col-12 order-1 order-lg-2">
                         <picture>
                             <source type="image/webp"
@@ -468,11 +470,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- informacion actualizada  -->
 
-        <div class="container p-0 pt-3">
+        <section id="informacionActualizada " class="container p-0 pt-3">
             <div class="row  mt-5 section-resize section-init-movil">
                 <div class="col-lg-7 col-md-7 col-12 pt-4 text-center order-2 order-lg-1">
                     <div class="space"></div>
@@ -507,9 +509,9 @@
                 </div>
             </div>
 
-        </div>
+        </section>
 
-        <div class="container mt-5" id="myHomeSeccion">
+        <section class="container mt-5" id="myHomeSeccion">
 
             <div class="row pt-4">
 
@@ -521,15 +523,15 @@
 
                 </div>
 
-                <div class="col-12 text-center">
+                <article class="col-12 text-center">
 
                     <p class=" mt-5 typ-os-regular  txt-black  f-sz-m-home">
                         Las empresas prefieren DataCRM al ser referente <br> entre los mejores software de CRM en
                         Latinoamérica.
                     </p>
 
-                </div>
-                <div class="container">
+                </article>
+                <section class="container">
 
                     <div class="row justify-content-center align-items-center">
                         <div class="col-sm-2 text-center">
@@ -602,9 +604,9 @@
                         </div>
                     </div>
 
-                </div>
+                </section>
             </div>
-        </div>
+        </section>
         <div class="space"></div>
         <div class="space"></div>
 
@@ -612,18 +614,18 @@
             <div class="container pt-5" id="myTestimonialsSeccion2">
                 <div class="row justify-content-center section-resize">
                     <div class="row">
-                        <div class="col-12">
+                        <article class="col-12">
                             <h2
                                 class="mt-3 typ-montserrat  myTitleBlue ft-h2 justify-content-center text-center align-items-center ">
                                 ¿Por qué las empresas en Latinoamérica nos prefieren?
                             </h2>
-                        </div>
+                        </article>
                     </div>
 
                     <div class="row justify-content-center">
 
-                        <div class="col-10 col-lg-4 mt-4">
-                            <div class="myText">
+                        <article class="col-10 col-lg-4 mt-4">
+                            <article class="myText">
                                 <p class="col-12 txt-gray typ-os-regular mt-4 text-left ">
                                     <i class="fa-sharp fa-solid fa-quote-left myQuoteLeft"></i> La organización y
                                     control es de vital importancia para Infórmese y es precisamente aquí donde DataCRM
@@ -631,7 +633,7 @@
                                     personalizados y a la posibilidad de generar reportes confiables, precisos y
                                     rápidos.
                                 </p>
-                            </div>
+                            </article>
                             <div class="row">
                                 <div class="col-6 text-left">
                                     <picture>
@@ -649,10 +651,10 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </article>
 
                         <div class="col-10 col-lg-4 mt-4">
-                            <div class="myText">
+                            <article class="myText">
                                 <p class="col-12 txt-gray typ-os-regular mt-4 text-left ">
                                     <i class="fa-sharp fa-solid fa-quote-left myQuoteLeft"></i> Para Vibra es de gran
                                     importancia la organización del área de ventas, al dar respuestas más rápidas y
@@ -660,7 +662,7 @@
                                     ayudamos a la atención oportuna de sus clientes, categorizando las peticiones,
                                     quejas y reclamos mediante el área de servicio al cliente.
                                 </p>
-                            </div>
+                            </article>
                             <div class="row">
                                 <div class="col-6 text-left">
                                     <picture>
@@ -683,14 +685,14 @@
 
 
                         <div class="col-10 col-lg-4 mt-4">
-                            <div class="myText">
+                            <article class="myText">
                                 <p class="col-12 txt-gray typ-os-regular mt-4 text-left ">
                                     <i class="fa-sharp fa-solid fa-quote-left myQuoteLeft"></i> La herramienta fue
                                     diseñada para nuestro proceso. Lo recomiendo porque da la facilidad de adaptar todos
                                     los procesos a la herramienta y mejorar el seguimiento a cada uno de los
                                     comerciales. Nos ha ayudado a mejorar la gestión con los clientes.
                                 </p>
-                            </div>
+                            </article>
                             <div class="row">
                                 <div class="col-6 text-left">
                                     <picture>
@@ -737,12 +739,12 @@
                     <div class="row pt-2 justify-content-center mb-5 mx-auto">
                         <div class="myHorizontalLine  mt-4"></div>
 
-                        <div class="col-12 text-center px-5 justify-content-center mt-4">
+                        <article class="col-12 text-center px-5 justify-content-center mt-4">
                             <p class=" mt-3 txt-blackgray typ-os-regular  f-sz-m  myBold">
                                 ÚNETE A MILES DE USUARIOS EN COLOMBIA, MÉXICO Y TODA LATINOAMÉRICA QUE HAN REVOLUCIONADO
                                 LA FORMA EN LA QUE HACEN SUS VENTAS CON <span class="txt-greenblue">DATACRM</span>
                             </p>
-                        </div>
+                        </article>
 
                         <div class="myHorizontalLine  mt-4"></div>
                         <div class="col-12 mt-4 text-center">
@@ -765,9 +767,9 @@
                                 <source type="image/webp"
                                     data-srcset="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}"
                                     srcset="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}">
-                                <img src="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}"
-                                    alt="DataCRM" class="img-fluid w-100 img-footer-logo lazyloaded" loading="lazy"
-                                    width="180" height="58">
+                                <img src="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}" alt="DataCRM"
+                                    class="img-fluid w-100 img-footer-logo lazyloaded" loading="lazy" width="180"
+                                    height="58">
                             </picture>
                         </a>
                         <p class="typ-os-regular f-sz-s m-0 mt-4 mb-2 mb-lg-0 pb-1 pb-lg-1">
@@ -961,9 +963,9 @@
                             <picture>
                                 <source type="image/webp"
                                     data-srcset="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}">
-                                <img src="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}"
-                                    alt="DataCRM" width="180" height="58"
-                                    class="img-fluid w-100 img-footer-logo lazyload" loading="lazy">
+                                <img src="{{ asset('images/Logodata_Horizontalblanco180x58.webp') }}" alt="DataCRM"
+                                    width="180" height="58" class="img-fluid w-100 img-footer-logo lazyload"
+                                    loading="lazy">
                             </picture>
                         </div>
                         <div class="col-12 mb-1">
@@ -1005,7 +1007,6 @@
                 </div>
             </div>
         </footer>
-
         <div class="modal fade" id="modalPruebaGratis3" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
             <div class="modal-dialog modal-lg justify-content-center text-center align-items-center" role="document"
@@ -1079,7 +1080,6 @@
 
                                             </div>
                                         </div>
-
                                         <!-- sector -->
                                         <div class="col-12 col-md-10" style="align:left">
                                             <div class="form-group">
@@ -1149,10 +1149,7 @@
                                                 </select>
                                             </div>
                                         </div>
-
-
                                         <!-- cuantas   personas utilizaran DataCRM -->
-
                                         <div class="col-12 col-md-10" align="left">
                                             <div class="form-group">
                                                 <select name="personas" id="personas"
@@ -1168,8 +1165,6 @@
                                                 </select>
                                             </div>
                                         </div>
-
-
 
                                         <div class="col-12 col-md-6" align="center">
                                             <!-- Boton comencemos -->
@@ -1205,9 +1200,7 @@
                                             style="font-weight: 600;">
                                             Políticas de Privacidad
                                         </a>
-
                                         y
-
                                         <!-- Terminos de servicio -->
                                         <a href="https://www.datacrm.com/terminos/"
                                             class="txt-greenblue f-sz-sx typ-os-regular" target="_blank"
@@ -1218,7 +1211,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-6 d-none d-lg-block" style="border-left: 1px solid gray;">
 
                             <div style="min-height: 80%; max-height: 80%;">
@@ -1287,34 +1279,22 @@
                                     </span>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
                 <div class="modal-content myModelMail mx-auto p-3 justify-content-center text-center align-items-center"
                     id="modalemail2" style="display: none;">
-
                     <div class="modal-header pt-0 pb-0">
-
-
-                        <button type="button" class="close" style="color: black !important;"
-                            data-dismiss="modal" aria-label="Close" id="btnModalClose">
+                        <button type="button" class="close" style="color: black !important;" data-dismiss="modal"
+                            aria-label="Close" id="btnModalClose">
                             <span aria-hidden="true">x</span>
                         </button>
                     </div>
 
                     <div class="row  myModelMail modal-body justify-content-center text-center align-items-center "
                         style="min-height: 165px; max-height: 300px;">
-
                         <div class="col-12 col-lg-6 d-none d-lg-block">
                             <picture>
-
                                 <source media="(min-width: 321px)" type="image/webp"
                                     srcset="https://www.datacrm.com/front/images/ya_tienes_una_cuenta600x539.webp">
                                 <source media="(max-width: 320px)" type="image/webp"
@@ -1329,7 +1309,6 @@
                             <div class="col-12">
                                 <p>
                                     <span class="text-center m-0 f-sz-b font-weight-bold txt-greenblue">
-
                                         Hola, te reconocimos!
                                     </span>
                                     <br>
@@ -1337,14 +1316,14 @@
                             </div>
                             <br>
                             <div class="col-12">
-                                <center>
-                                    <!-- INICIAR SESIÓN -->
-                                    <a style="text-decoration: none; padding: 10px; font-weight: 600;font-size: 20px;color: #ffffff; background-color: #f58756; border-radius: 6px; width: 20px;"
-                                        class="boton_personalizado" id="access_crm" target="_blank"
-                                        href="https://www.datacrm.com/">
-                                        Iniciar sesión
-                                    </a>
-                                </center>
+
+                                <!-- INICIAR SESIÓN -->
+                                <a style="text-decoration: none; padding: 10px; font-weight: 600;font-size: 20px;color: #ffffff; background-color: #f58756; border-radius: 6px; width: 20px;"
+                                    class="boton_personalizado" id="access_crm" target="_blank"
+                                    href="https://www.datacrm.com/">
+                                    Iniciar sesión
+                                </a>
+
                             </div>
                             <br>
                             <!-- Recupera tu contraseña Aquí -->
@@ -1356,12 +1335,9 @@
                                     ¿Olvidaste la contraseña?
                                 </a>
                             </div>
-
                             <div class="col-12">
                                 <p class="typ-os-regular f-sz-s mt-4 text-center mb-0">
-
                                     He leido y estoy de acuerdo con los
-
                                     <a href="https://www.datacrm.com/terminos" target="_blank"
                                         rel="noopener noreferrer" class="txt-greenblue">
                                         Términos de servicios
@@ -1378,15 +1354,7 @@
                         </div>
                     </div>
 
-                    <div class="modal-footer">
-
-                    </div>
-
                 </div>
-
-
-
-
                 <div class="row mt-lg-0 mt-5 ml-sm-2">
                     <div class="modal-content myModelMail mx-auto justify-content-center text-center align-items-center"
                         id="modalloading" style="display: none; max-width: 70rem !important">
@@ -1395,9 +1363,6 @@
                         <p class="mt-4 f-sz-sx">Hemos enviado los datos de acceso a tu correo electrónico, si no los
                             encuentras revisa en Spam o escríbenos info@datacrm.com</p>
                         <div>
-
-
-
                             <img class="img-fluid" id="gif_loader3"
                                 src="./CRM Móvil para la administración de ventas_files/crear-cuenta.gif"
                                 loading="lazy">
@@ -1405,8 +1370,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="row mt-lg-0 mt-5 ml-sm-2">
                     <div class="modal-content  mx-auto justify-content-center text-center align-items-center"
                         id="modalMobile3" style="display: none;">
@@ -1417,18 +1380,11 @@
                                 <span aria-hidden="true">x</span>
                             </button>
                         </div>
-                        <!-- ¡Información actualizada a donde vayas! -->
                         <p style="color: #3e6aab !important; font-weight: bold;"
                             class="text-uppercase text-center mb-4 txt-blackgray typ-montserrat f-sz-b">
                             ¡Información actualizada a donde vayas!<br>
                         </p>
-                        <!--
-                        Caracacteristicas
-                            Visualiza y edita tus Negocios
-                            Crea Actividades
-                            Envía correos
-                            Llama a tus Clientes
-                    -->
+
                         <ul id="app_info" class="mb-4">
                             <li>Visualiza y edita tus <strong>Negocios</strong></li>
                             <li>Crea <strong>Actividades</strong></li>
@@ -1458,19 +1414,7 @@
 
         </div>
 
-        <script>
-            $(document).ready(function() {
-
-                $('#telefono').on('input', function() {
-
-                });
-
-            });
-        </script>
-
-
-
-<link rel="stylesheet" href="./CRM Móvil para la administración de ventas_files/intlTelInput.min.css"
+        <link rel="stylesheet" href="./CRM Móvil para la administración de ventas_files/intlTelInput.min.css"
             async="">
         <script src="{{ asset('js/intlTelInput.min.js') }}"></script>
         <script>
@@ -1490,11 +1434,6 @@
                             .then(data => {
                                 let myTemp = nombrePais(data.country)
                                 data.country_name = myTemp == "" ? data.country_name : myTemp;
-
-                                // if (data.country == "US") {
-                                // data.country_name ="Estados Unidos";
-                                // }
-                                // console.log(JSON.stringify(data));
                                 $('#city3').val(data.city);
                                 $('#countryName3').val(data.country_name);
                                 callback(data.country_code)
@@ -1506,10 +1445,7 @@
                     },
                 });
                 window.iti = iti;
-
                 window.addEventListener("countrychange", function() {
-                    // do something with iti.getSelectedCountryData()
-
                     let myCountryData = iti.getSelectedCountryData();
                     let myTemp = nombrePais(iti.getSelectedCountryData().iso2.toUpperCase());
 
@@ -1517,30 +1453,16 @@
                     $('#countryName3').val(myTemp);
 
                 });
-
                 $("#modalPruebaGratis3").on('show.bs.modal', function() {
-                    // console.log('la plataforma es ->' + detectaPlataforma());
-                    /*
-                    switch(detectaPlataforma()){
-                        case "Android OS":
-                            window.location.href="https://play.google.com/store/apps/details?id=com.datacrm.application";
-                            break;
-                        case "iOS":
-                            window.location.href="https://itunes.apple.com/us/app/datacrm/id1437186766?mt=8";
-                            break;
-                        }
-                        */
-                });
 
+                });
             });
         </script>
         <script>
             (function() {
                 'use strict'
-
                 // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
                 var forms = document.querySelectorAll('.needs-validation')
-
                 // Bucle sobre ellos y evitar el envío
                 Array.prototype.slice.call(forms)
                     .forEach(function(form) {
@@ -1550,14 +1472,12 @@
                                 event.preventDefault()
                                 event.stopPropagation()
                                 $(".myinvalid").fadeIn();
-
                                 let myNombreApellidos = "Nombre y apellido *";
                                 let myCompany = "Compañía *";
                                 let myEmail = "Correo electrónico empresarial *";
                                 let myTelefono = "Telefono *";
                                 let mySector = "Sector *";
                                 let myPersonas = "¿Cuántas personas utilizarán DataCRM? *"
-
                                 $("#nombreapellidos").attr("placeholder", myNombreApellidos);
                                 $("#company").attr("placeholder", myCompany);
                                 $("#email").attr("placeholder", myEmail);
@@ -1565,20 +1485,11 @@
                                 $("#sector").attr("placeholder", "test");
                                 $("#personas").attr("placeholder", myPersonas);
                             }
-
                             form.classList.add('was-validated')
                         }, false)
                     })
             })()
-
-
         </script>
-        <!-- SEO -->
-        <!-- <link href="https://www.datacrm.com/front/css/yosemodal.css" rel="stylesheet" type="text/css"/> -->
-        <!-- <link href="https://www.datacrm.com/front/css/yosemodal.min.css" rel="stylesheet" type="text/css"/>
-    <div id="divYoseMinContainer">
-
-    </div> -->
         <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -1594,29 +1505,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            $(document).ready(function() {
-                var myAutoplay = "?autoplay=1";
-                var myControls = "&controls=1";
-                var myDisablekb = "&disablekb=1";
-                var myShowInfo = "&showinfo=0"
-                var myRel = "?rel=0"
-                var url = "https://www.youtube.com/embed/grLovpoDICs" + myRel;
 
-                $("#modalVideo").on('hide.bs.modal', function() {
-                    $("#modalVideoIframe").attr('src', '');
-                });
-                $("#modalVideo").on('show.bs.modal', function() {
-                    $("#modalVideoIframe").attr('src', url);
-                    $(this).find('.modal-body').css({
-                        width: 'auto',
-                        height: 'auto',
-                        'max-height': '100%',
-                        'max-width': '100%'
-                    });
-                });
-            });
-        </script>
 
         <div class="modal fade" id="modalemail" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -1631,13 +1520,13 @@
                         </button>
                     </div>
                     <div class="modal-body text-center" style="font-size:1.15em; font-weight: bold;">
-                        <center>
-                            <a style="text-decoration: none; padding: 10px; font-weight: 600;font-size: 20px;color: #ffffff; background-color: #f58756; border-radius: 6px;"
-                                class="boton_personalizado" id="access_crm" target="_blank"
-                                href="https://www.datacrm.com/">
-                                INICIAR SESIÓN
-                            </a>
-                        </center>
+
+                        <a style="text-decoration: none; padding: 10px; font-weight: 600;font-size: 20px;color: #ffffff; background-color: #f58756; border-radius: 6px;"
+                            class="boton_personalizado" id="access_crm" target="_blank"
+                            href="https://www.datacrm.com/">
+                            INICIAR SESIÓN
+                        </a>
+
                         <br>
                         <a href="https://www.datacrm.com/" id="recover_password"
                             style="color:#41c3ac; text-decoration: underline;font-size: 1.2em;" target="_blank"
@@ -1670,46 +1559,22 @@
         gtag('config', 'G-PVJNVD8TVN');
     </script>
 
-
-
-    <script type="lazy" async="" src="{{ asset('js/js.js') }}"></script>
-
     <script type="lazy" defer="" src="./CRM Móvil para la administración de ventas_files/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader.js.descarga"></script>
     <script src="./CRM Móvil para la administración de ventas_files/owl.carousel.js.descarga" defer=""></script>
     <script src="./CRM Móvil para la administración de ventas_files/popper.min.1.11.0.js.descarga" defer=""></script>
-
     <script src="./CRM Móvil para la administración de ventas_files/bootstrap.min(1).js.descarga" defer=""></script>
     <script src="./CRM Móvil para la administración de ventas_files/all-functions.js.descarga" defer=""></script>
-
     <script src="./CRM Móvil para la administración de ventas_files/cookies.js.descarga" defer=""></script>
     <script src="./CRM Móvil para la administración de ventas_files/lazyload.min.js.descarga" defer=""></script>
     <script src="./CRM Móvil para la administración de ventas_files/helper.js.descarga" defer=""></script>
-    <script src="{{ asset('js/main.home.js') }}"></script>
     <script src="./CRM Móvil para la administración de ventas_files/create-demo3.js.descarga" defer=""></script>
-
-
-    <!-- Whatsapp -->
-
-    <script>
-        window.datacrm_whatsapp_config = {
-            "mobile": "573014765478",
-            "redirect_chat_whatsapp": "true",
-            "empresa": "https://www.datacrm.la/datacrm/datacrm/webservice.php"
-        }
-    </script>
     <script type="lazy" src="./CRM Móvil para la administración de ventas_files/wpp_button.min.js.descarga" defer=""></script>
-
     <script src="./CRM Móvil para la administración de ventas_files/plans.home.js.descarga" defer=""></script>
     <script src="./CRM Móvil para la administración de ventas_files/modification.home.js.descarga" defer=""></script>
-
-
     <!-- prueba mapa de calor orange -->
-
     <script async="" defer="" src="./CRM Móvil para la administración de ventas_files/lo.js.descarga"></script>
     <script class="iti-load-utils" async="" src="./CRM Móvil para la administración de ventas_files/utils(1).js.descarga">
     </script>
-    <script async="true" src="{{ asset('js/js.js') }}"></script>
-
     <script type="text/javascript" async="true"
         src="./CRM Móvil para la administración de ventas_files/bdf94fe1-12bd-4f35-8989-1a189152cb58-loader.js.descarga">
     </script>
@@ -1722,15 +1587,10 @@
     <script type="text/javascript" src="./CRM Móvil para la administración de ventas_files/rdstation-popup.min.js.descarga">
     </script>
     <script type="text/javascript"
-        src="./CRM Móvil para la administración de ventas_files/rd-js-integration.min.js.descarga"></script><iframe id="wpp-iframe"
-        src="./CRM Móvil para la administración de ventas_files/index.html"
-        style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; width: 80px; z-index: 999999; height: 80px; bottom: 0px; right: 10px; position: fixed; "
-        frameborder="0"
-        sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation-by-user-activation"></iframe>
-
-<!-- Google tag (gtag.js) -->
-<script src="{{ asset('js/javascript.js') }}"></script>
-<!-- Agrega tus scripts JS al final del body si es necesario -->
-
+        src="./CRM Móvil para la administración de ventas_files/rd-js-integration.min.js.descarga"></script>
+    <script src="{{ asset('js/main.home.js') }}"></script>
+    <script async="true" src="{{ asset('js/js.js') }}"></script>
+    <script src="{{ asset('js/javascript.js') }}"></script>
 </body>
+
 </html>
