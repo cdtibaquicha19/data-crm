@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://www.datacrm.com/front/images/favicon.ico">
     <title>CRM Móvil para la administración de ventas</title>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/fontawesome.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="{{ asset('css/main.min.css') }}" rel="stylesheet">
-
     <meta name="description"
         content="Accede desde tu móvil a toda la información de tus clientes y contáctalos rápidamente con nuestra App de CRM para Android y iOS ¡Descárgala!">
     <meta property="og:locale" content="es_ES">
@@ -25,11 +26,8 @@
     <meta name="twitter:description"
         content="Accede desde tu móvil a toda la información de tus clientes y contáctalos rápidamente con nuestra App de CRM para Android y iOS ¡Descárgala!">
     <meta name="twitter:title" content="CRM Móvil para la administración de ventas">
-
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 <body>
-
     <div class="container-fluid" style="margin: 0px; padding: 0px;">
         <!-- mobile -->
 
@@ -4250,8 +4248,7 @@
 
 
     <script src="./CRM Móvil para la administración de ventas_files/helper.js.descarga" defer=""></script>
-
-    <script src="./CRM Móvil para la administración de ventas_files/main.home.js.descarga" defer=""></script>
+    <script src="{{ asset('js/main.home.js') }}"></script>
     <script src="./CRM Móvil para la administración de ventas_files/create-demo3.js.descarga" defer=""></script>
 
 
@@ -4337,7 +4334,6 @@
     </script>
     <script type="text/javascript"
         src="./CRM Móvil para la administración de ventas_files/traffic-source-cookie.min.js.descarga"></script>
-<iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" id="rd_tmgr" src="./CRM Móvil para la administración de ventas_files/saved_resource(2).html"></iframe>
     <script type="text/javascript" src="./CRM Móvil para la administración de ventas_files/rdstation-popup.min.js.descarga">
     </script>
     <script type="text/javascript"
